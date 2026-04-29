@@ -11,4 +11,3 @@ alert("preço venda R$" + precoVenda.toFixed(2))
 document.getElementById("Resultado").innerHTML = "preço para a venda R$:" + precoVenda.toFixed(2);
 }
 
-
