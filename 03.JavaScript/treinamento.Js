@@ -1,5 +1,5 @@
-function verificarProvisoes(){
-    let marujos, comida
+function capitaoGanso(){
+let marujos, comida
     let comidaPorMarujo
     // entradas
     marujos = Number(prompt("Quantidade de marujos: "))
@@ -12,24 +12,4 @@ function verificarProvisoes(){
     }else{
         document.getElementById("resultado").innerHTML = "Algo está errado. Poseidom não quer ninguém no mar hoje "
     }
-     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
