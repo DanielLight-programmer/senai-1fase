@@ -1,3 +1,5 @@
+let saida = document.getElementById("Resultado")
+
 function capitaoGanso(){
 let marujos, comida
     let comidaPorMarujo
@@ -30,9 +32,46 @@ function recrutamentoMarujos() {
     }else{
         saida.innerHTML = "Reprovado. Volte quando estiver mais preparado para navegar pelos mares.";
     }
+}
+function mostrarDiaDaSemana(){
+let numero, dia
+
+numero = Number(prompt("digite o numero: "))
+if(numero == 1){
+    dia ="Domingo" 
+}else if (numero == 2){
+    dia = "Segunda"
+}else if(numero == 3){
+    dia = "Terça"
+}else if(numero == 4){
+    dia = "Quarta"
+}else if(numero == 5){
+    dia = "Quinta"
+}else if(numero == 6){
+    dia ="Sexta"
+}else if(numero == 7 ){
+    dia = "Sábado"
+}
+document.getElementById("Resultado").innerHTML = dia
+}
+function sarumanoMaquina(){
+    // informacaoes
+    let criancasPequenas
+    let velocidadeVento
+
+// entradas
+criancasPequenas = Number(prompt("Quantas crianças estão no palco?"))
+velocidadeVento = Number(prompt("Qual a velocidade do vento no salão?"))
+
+if(criancasPequenas == 0 && velocidadeVento >= 0.5){
+    saida.innerHTML = "Fumaça liberada. Que começe o misterio"
+}else{
+    saida.innerHTML = "Fumaça bloqueada. Aguardar condições ideais."
+}
+}
+
 
     
 
 
 
-}
