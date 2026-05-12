@@ -104,5 +104,37 @@ function sarumanoAdoecido(){
     let tempoViagem;
 estaGripado = prompt ("O sarumano está gripado?")
 tempoViagem = Number(prompt(" Qual o tempo da viagem?")) 
+ 
+if(estaGripado == "sim" && tempoViagem < 45 ){
+    saida.innerHTML = "viagem autorizada. Rumo ao show!"
+}else{ 
+    saida.innerHTML = "Deslocamento inviável. Melhor recusar este evento."
+
+}
+
+   
+
+}
+function calcularUber(){
+
+    let distancia,Tempo
+    const velocidade = 300000
+
+    distancia = Number(prompt("Qual a distancia?"))
+    Tempo = distancia/velocidade
+    saida.innerHTML = "tempo será: " + Tempo + "Segundos"
+
+    
+    if(Tempo >= 60 ){
+        Tempo = Tempo / 60
+        saida.innerHTML = "tempo será: " + Tempo +"minutos"
+    }else if(Tempo >=3600){
+        Tempo = Tempo / 3600
+        saida.innerHTML = "tempo será: " + ""    }
+
+        
+
+
+
 
 }
