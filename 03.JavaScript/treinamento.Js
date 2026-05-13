@@ -117,24 +117,36 @@ if(estaGripado == "sim" && tempoViagem < 45 ){
 }
 function calcularUber(){
 
-    let distancia,Tempo
+    let distancia, tempoSegundos, minutos, horas, dias, meses, anos 
     const velocidade = 300000
 
     distancia = Number(prompt("Qual a distancia?"))
-    Tempo = distancia/velocidade
-    saida.innerHTML = "tempo será: " + Tempo + "Segundos"
+    tempoSegundos = distancia / velocidade
+    saida.innerHTML = "tempo será: " + tempoSegundos + "Segundos"
 
     
-    if(Tempo >= 60 ){
-        Tempo = Tempo / 60
-        saida.innerHTML = "tempo será: " + Tempo +"minutos"
-    }else if(Tempo >=3600){
-        Tempo = Tempo / 3600
-        saida.innerHTML = "tempo será: " + ""    }
+    if(tempoSegundos > 60 ){
+        minutos = tempoSegundos / 60
+        saida.innerHTML = "tempo será: " + minutos + "minutos"
+    } 
+    if(minutos > 60){
+         horas = minutos / 60
+        saida.innerHTML = "tempo será: " + horas + "horas"  
+
+    }if(horas > 24){
+        dias = horas / 24
+        saida.innerHTML = "tempo será:" + dias + "dias"
+
+
+    }if( dias > 30 ){
+        meses = dias / 30
+        saida.innerHTML = "tempo será: " + meses + "meses"
+
+    }if( meses > 12 ){
+        anos = meses / 12 
+        saida.innerHTML = "tempo será: " + anos + "anos"
+
+    }
 
         
-
-
-
-
 }
