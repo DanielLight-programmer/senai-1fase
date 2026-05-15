@@ -150,3 +150,8 @@ function calcularUber(){
 
         
 }
+function entradaDoPalco(){
+let somFuncionado;
+let figurinoCompleto
+
+}
