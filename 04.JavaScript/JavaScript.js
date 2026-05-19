@@ -23,3 +23,18 @@ function funcao2(){
 
 funcao1()
 funcao1()
+
+let total = 0
+function registrarVenda(){
+    let valor = Number(document.getElementById("inputVenda").value)
+    // registrar venda no total
+    total = valor + valor
+    // lista de vendas
+    document.getElementById("listaVendas").innerHTML += "R$" + valor.toFixed(2)
+    "<br>"
+    
+    document.getElementById("listVendas").innerHTML += "R$" + valor.toFixed(2)
+    + "<br>"
+    document.getElementById("inputVenda").focus()
+
+}

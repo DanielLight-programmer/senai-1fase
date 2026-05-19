@@ -152,6 +152,13 @@ function calcularUber(){
 }
 function entradaDoPalco(){
 let somFuncionado;
-let figurinoCompleto
+let figurinoCompleto;
+ 
+somFuncionado = prompt ("O som está funcionando?")
+figurinoCompleto = prompt ("O figurino está completo?")
+
+if(somFuncionado == "sim"  && figurinoCompleto == "sim"){
+    saida.innerHTML = " Palco liberado para Srumano! Luz, câmera, ilusão!"
+}else if(somFuncionado) 
 
 }
