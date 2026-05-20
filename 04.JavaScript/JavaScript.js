@@ -1,40 +1,64 @@
-let cont = 0
-function incrementarContagem(){
-cont = cont + 1 
-document.getElementById(`p-contagem`).innerHTML = cont
-}
-
-
-
-
-
-
-let global = " Eu sou uma variável global :/"
-function funcao1(){ 
-let local = "Sou uma varíavel local :D"
-console.log(local);
-console.log(global);
-}
-function funcao2(){
-    console.log(global);
-    // console.log(local);
-
-}
-
-funcao1()
-funcao1()
-
 let total = 0
+
 function registrarVenda(){
     let valor = Number(document.getElementById("inputVenda").value)
     // registrar venda no total
     total = valor + valor
-    // lista de vendas
-    document.getElementById("listaVendas").innerHTML += "R$" + valor.toFixed(2)
-    "<br>"
-    
-    document.getElementById("listVendas").innerHTML += "R$" + valor.toFixed(2)
-    + "<br>"
+    // atualizar total na página
+    document.getElementById("totalVendido").innerHTML = "total de vendas: R$" + total.toFixed(2)
+
+    // lista de vendas 
+    document.getElementById("listaVendas").innerHTML += "R$" + valor.toFixed(2) + "<br>"
+
+    document.getElementById("inputVenda").Value = ""
     document.getElementById("inputVenda").focus()
 
+    console.log(valor)
+
+    let cont = 0 
+
+    function incrementarContagem(){
+    // cont = cont + 1
+    // cont += 1
+    cont++
+    document.getElementById("p-contagem").innerHTML = cont 
+    }
+
+    function decrementarContagem(){
+        cont--
+        document.getElementById("p-contagem").innerHTML = cont
+    }
+    function somar10(){
+        cont = cont = 10
+        //cont+= 10
+        document.getElementById("p-contagem").innerHTML = cont
+
+    }
+    function somar2(){
+        cont += 2
+        document.getElementById("p-contagem").innerHTML = cont
+
+    }
+    function zerarContagem(){
+        cont = 0
+        document.getElementById("p-contagem").innerHTML = cont 
+    }
+
+let global = "Eu sou uma variável global :/"
+function funcao1(){
+    let local = "Sou uma variável local :D"
+    // let global = "Me identifico como global"
+    console.log(local);
+    console.log(global);
+
+}
+function funcao2(){
+    // let local
+    console.log(global);
+    //  console.log(local);
+
+}
+
+//funcao1()
+// funcao2()
 }
