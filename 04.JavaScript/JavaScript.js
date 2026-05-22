@@ -17,7 +17,7 @@ function registrarVenda(){
 
     let cont = 0 
 
-    function incrementarContagem(){
+function incrementarContagem(){
     // cont = cont + 1
     // cont += 1
     cont++
@@ -28,13 +28,13 @@ function registrarVenda(){
         cont--
         document.getElementById("p-contagem").innerHTML = cont
     }
-    function somar10(){
+function somar10(){
         cont = cont = 10
         //cont+= 10
         document.getElementById("p-contagem").innerHTML = cont
 
     }
-    function somar2(){
+function somar2(){
         cont += 2
         document.getElementById("p-contagem").innerHTML = cont
 
