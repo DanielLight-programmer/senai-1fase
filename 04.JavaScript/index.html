@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Var</title>
 </head>
 <body> 
     <h1>variaveis</h1>
     
     <hr>
+    <h2>Dados da dona bete🎲</h2>
+    <div>
+      Total das rolagens: <output id="outputTotal">0</output>
+      <button onclick="resetar()"> Reset</button> 
+    </div>
+
+    <div>
+      Ultima Rolagem: <output id="outputUltima">Não jogou ainda</output>
+    </div>
+    <div>
+
+    <button onclick="rolarDado(2)">d2</button>
+    
+
 
     <button onclick = "incrementarContagem()">+</button>
 
+    <hr>
     <p id="p-contagem">
       0
     </p>
