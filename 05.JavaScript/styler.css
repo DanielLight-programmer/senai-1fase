@@ -1,0 +1,42 @@
+button{
+        padding: 12px;
+    border-radius: 6px;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+}
+.btn1 {
+    background-color: #cf1919;
+
+}
+.btn1:hover { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px ;
+    background-color: rgb(10, 233, 10);
+    box-shadow: rgba(40, 156, 16, 0.589) 0px  0px 24px ;
+}
+    .btn2 {
+        background-color: #0702ff;
+
+}
+.btn2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 18px; ;
+    background-color:#ece90b ; 
+    box-shadow: #fffc5f 0px 0px 24px;
+    transform: scale(1.06);
+}
+h1{
+    color: #197dcf;
+}
+.btn3{
+background-color: #eeff02; transform: scale(1.06) rotate(10deg);
+}
+.btn3:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 18px; ;
+    background-color:#a51a1a ; 
+    box-shadow: #ff0000 0px 0px 24px;
+    transform: scale(1.06) rotate(10deg);
+    cursor: ;
+}

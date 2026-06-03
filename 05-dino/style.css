@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #01422c;
+
+}
+h1{
+    color: #367e8a;
+}
+lsabel{
+    color: #266865;
+
+}
+
+button{
+    background-color: #32383d;
+    color: #a5a6aa;
+
+}
+h2{
+    color: #268665;
+
+}
+p{ 
+    color: #26866526;
+
+}
