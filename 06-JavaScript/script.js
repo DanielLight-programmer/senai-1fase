@@ -26,24 +26,24 @@
 // }
 
 
-function crescente(){//1
-  let numero = 1
-  while(numero <= 10){
-    alert(numero)
-    numero ++
-  }
-}
+// function crescente(){//1
+//   let numero = 1
+//   while(numero <= 10){
+//     alert(numero)
+//     numero ++
+//   }
+// }
 
 
 
-function decrescente(){//2
-  let numero = 10
-  while(numero >= 1){
-    alert(numero)
-    numero --
+// function decrescente(){//2
+//   let numero = 10
+//   while(numero >= 1){
+//     alert(numero)
+//     numero --
     
-  }
-}
+//   }
+// }
 
 /*
 let i=10 //inicialização
@@ -53,13 +53,45 @@ i--// contagem
 }
 */
 
-function somaDosNúmeros(){
-let armazenamentoTotal = 0 //3
-let numero = 1 
-while(numero <= 100){
-    armazenamentoTotal += numero 
-    numero++
-}
-    alert(armazenamentoTotal)
-}
+// function somaDosNúmeros(){
+// let armazenamentoTotal = 0 
+// let numero = 1 
+// while(numero <= 100){
+//     armazenamentoTotal += numero 
+//     numero++
+// }
+//     alert(armazenamentoTotal)
+// }
+
+// function calcularaSoma(){
+// let soma = 0;
+//  for(let i = 1; i<=10; i++){
+//   soma += i;
+//   console.log(soma);
+//  }
+// console.log("A soma total é: " + soma);
+//  alert("A soma total é: " + soma);
+// }
+
+// function tabuadaDo5(){
+//   let tabuada = 1;
+//   for(let i = 1; i <= 10; i++){
+//     console.log(resultado)
+//   }
+// }
+
  
+
+let palavra = "JavaScript"; 
+
+
+// palavra.lengh
+//console.log(palavra[8])
+// console.log(palavra.length)
+
+
+for(let i = 0; i < palavra.length; i++){
+console.log(palavra[i]);
+
+ }
+
