@@ -45,13 +45,13 @@
 //   }
 // }
 
-/*
-let i=10 //inicialização
-while(i > 1){//cond repet
-console.log(i)
-i--// contagem
-}
-*/
+
+// let i=10 //inicialização
+// while(i > 1){//cond repet
+// console.log(i)
+// i--// contagem
+// }
+
 
 // function somaDosNúmeros(){
 // let armazenamentoTotal = 0 
@@ -74,24 +74,55 @@ i--// contagem
 // }
 
 // function tabuadaDo5(){
-//   let tabuada = 1;
+//   let tabuada = 5;
+//   let resultado = 0  
 //   for(let i = 1; i <= 10; i++){
-//     console.log(resultado)
+//     resultado = tabuada*i
+//     alert(tabuada + " x " + i + ' = ' + resultado)
 //   }
 // }
 
  
-
-let palavra = "JavaScript"; 
-
-
 // palavra.lengh
-//console.log(palavra[8])
+// console.log(palavra[8])
 // console.log(palavra.length)
 
+function ExibirCadaletra(){ 
+
+    let palavra = "JavaScript"; 
 
 for(let i = 0; i < palavra.length; i++){
-console.log(palavra[i]);
 
- }
+console.log(palavra[i]);
+alert(palavra[i]);
+}
+ 
+}
+
+function quadradoDosNumeros(){
+
+let resultado = 0
+
+for(let i = 1; i <=10; i++){
+
+resultado = i ** 2
+
+alert(i  + "² = " + resultado);
+
+}
+}
+
+function multiplosDeTrês(){
+
+for(let i = 1; i <= 30; i ++){
+
+    if (i % 3 === 0){
+
+    alert(i + " é  multiplo de 3 ." );
+}
+
+}
+
+}
+
 
