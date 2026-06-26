@@ -126,3 +126,21 @@ for(let i = 1; i <= 30; i ++){
 }
 
 
+function imprimirAsteriscos(){
+
+    let linha ="";
+
+    for(let i = 0 ; i <  10 ; i++) {
+        linha += "*";
+          }
+     console.log(linha); 
+    
+    }
+
+    function calcularPares1a20(){
+        
+let soma = 0 
+
+}
+
+
