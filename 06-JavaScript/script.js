@@ -87,60 +87,61 @@
 // console.log(palavra[8])
 // console.log(palavra.length)
 
-function ExibirCadaletra(){ 
+// function ExibirCadaletra(){ 
 
-    let palavra = "JavaScript"; 
+//     let palavra = "JavaScript"; 
 
-for(let i = 0; i < palavra.length; i++){
+// for(let i = 0; i < palavra.length; i++){
 
-console.log(palavra[i]);
-alert(palavra[i]);
-}
+// console.log(palavra[i]);
+// alert(palavra[i]);
+// }
  
-}
+// }
 
-function quadradoDosNumeros(){
+// function quadradoDosNumeros(){
 
-let resultado = 0
+// let resultado = 0
 
-for(let i = 1; i <=10; i++){
+// for(let i = 1; i <=10; i++){
 
-resultado = i ** 2
+// resultado = i ** 2
 
-alert(i  + "² = " + resultado);
+// alert(i  + "² = " + resultado);
 
-}
-}
+// }
+// }
 
-function multiplosDeTrês(){
+// function multiplosDeTrês(){
 
-for(let i = 1; i <= 30; i ++){
+// for(let i = 1; i <= 30; i ++){
 
-    if (i % 3 === 0){
+//     if (i % 3 === 0){
 
-    alert(i + " é  multiplo de 3 ." );
-}
+//     alert(i + " é  multiplo de 3 ." );
+// }
 
-}
+// }
 
-}
+// }
 
 
-function imprimirAsteriscos(){
+// function imprimirAsteriscos(){
 
-    let linha ="";
+//     let linha ="";
 
-    for(let i = 0 ; i <  10 ; i++) {
-        linha += "*";
-          }
-     console.log(linha); 
+//     for(let i = 0 ; i <  10 ; i++) {
+//         linha += "*";
+//           }
+//      console.log(linha); 
     
-    }
+//     }
 
-    function calcularPares1a20(){
+//     function calcularPares1a20(){
         
-let soma = 0 
+// let soma = 0 
 
-}
+// }
+
 
 
