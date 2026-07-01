@@ -36,7 +36,10 @@ function arrays00(){
      }
 
      function mostrarProdutos(){
-        for
+        for(let i=0; i<mostrarProdutos.leghth; i++){
+          console.log(produto[i])
+          document.getElementById('')
+        }
      }
 
 
