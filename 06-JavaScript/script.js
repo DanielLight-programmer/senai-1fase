@@ -1,147 +1,147 @@
-// let contador = 0 
-// while(contador < 10){
-//     alert("Contador: " + contador )
+let contador = 0 
+while(contador < 10){
+    alert("Contador: " + contador )
     
-//     contador++
-// }//voltar e testar novamente
+    contador++
+}//voltar e testar novamente
 
-// let peso
+let peso
 
-// let contador = 0 
-// while(contador < 10)
-// peso = Number(prompt("digite o peso:"))
-// if(peso>1.1 || peso<0.9){
-//     alert("Fora tolerância do peso")
-// }
-// contador++
+let contador = 0 
+while(contador < 10)
+peso = Number(prompt("digite o peso:"))
+if(peso>1.1 || peso<0.9){
+    alert("Fora tolerância do peso")
+}
+contador++
 
-// let total = 0
+let total = 0
 
-// let i = 0 //inicialização
-// while(i < 3){//cond repet
-//     i++ //contagem
-//     let preco = Number(prompt("Digite o preço do " + i + "° produto: "))
-//     total = total + preco
-//     document.getElementById('total').innerHTML += i + "° produto R$" + preco.toFixed(2) + "<br>" 
-// }
-
-
-// function crescente(){//1
-//   let numero = 1
-//   while(numero <= 10){
-//     alert(numero)
-//     numero ++
-//   }
-// }
+let i = 0 //inicialização
+while(i < 3){//cond repet
+    i++ //contagem
+    let preco = Number(prompt("Digite o preço do " + i + "° produto: "))
+    total = total + preco
+    document.getElementById('total').innerHTML += i + "° produto R$" + preco.toFixed(2) + "<br>" 
+}
 
 
+function crescente(){//1
+  let numero = 1
+  while(numero <= 10){
+    alert(numero)
+    numero ++
+  }
+}
 
-// function decrescente(){//2
-//   let numero = 10
-//   while(numero >= 1){
-//     alert(numero)
-//     numero --
+
+
+function decrescente(){//2
+  let numero = 10
+  while(numero >= 1){
+    alert(numero)
+    numero --
     
-//   }
-// }
+  }
+}
 
 
-// let i=10 //inicialização
-// while(i > 1){//cond repet
-// console.log(i)
-// i--// contagem
-// }
+let i=10 //inicialização
+while(i > 1){//cond repet
+console.log(i)
+i--// contagem
+}
 
 
-// function somaDosNúmeros(){
-// let armazenamentoTotal = 0 
-// let numero = 1 
-// while(numero <= 100){
-//     armazenamentoTotal += numero 
-//     numero++
-// }
-//     alert(armazenamentoTotal)
-// }
+function somaDosNúmeros(){
+let armazenamentoTotal = 0 
+let numero = 1 
+while(numero <= 100){
+    armazenamentoTotal += numero 
+    numero++
+}
+    alert(armazenamentoTotal)
+}
 
-// function calcularaSoma(){
-// let soma = 0;
-//  for(let i = 1; i<=10; i++){
-//   soma += i;
-//   console.log(soma);
-//  }
-// console.log("A soma total é: " + soma);
-//  alert("A soma total é: " + soma);
-// }
+function calcularaSoma(){
+let soma = 0;
+ for(let i = 1; i<=10; i++){
+  soma += i;
+  console.log(soma);
+ }
+console.log("A soma total é: " + soma);
+ alert("A soma total é: " + soma);
+}
 
-// function tabuadaDo5(){
-//   let tabuada = 5;
-//   let resultado = 0  
-//   for(let i = 1; i <= 10; i++){
-//     resultado = tabuada*i
-//     alert(tabuada + " x " + i + ' = ' + resultado)
-//   }
-// }
+function tabuadaDo5(){
+  let tabuada = 5;
+  let resultado = 0  
+  for(let i = 1; i <= 10; i++){
+    resultado = tabuada*i
+    alert(tabuada + " x " + i + ' = ' + resultado)
+  }
+}
 
  
-// palavra.lengh
-// console.log(palavra[8])
-// console.log(palavra.length)
+palavra.lengh
+console.log(palavra[8])
+console.log(palavra.length)
 
-// function ExibirCadaletra(){ 
+function ExibirCadaletra(){ 
 
-//     let palavra = "JavaScript"; 
+    let palavra = "JavaScript"; 
 
-// for(let i = 0; i < palavra.length; i++){
+for(let i = 0; i < palavra.length; i++){
 
-// console.log(palavra[i]);
-// alert(palavra[i]);
-// }
+console.log(palavra[i]);
+alert(palavra[i]);
+}
  
-// }
+}
 
-// function quadradoDosNumeros(){
+function quadradoDosNumeros(){
 
-// let resultado = 0
+let resultado = 0
 
-// for(let i = 1; i <=10; i++){
+for(let i = 1; i <=10; i++){
 
-// resultado = i ** 2
+resultado = i ** 2
 
-// alert(i  + "² = " + resultado);
+alert(i  + "² = " + resultado);
 
-// }
-// }
+}
+}
 
-// function multiplosDeTrês(){
+function multiplosDeTrês(){
 
-// for(let i = 1; i <= 30; i ++){
+for(let i = 1; i <= 30; i ++){
 
-//     if (i % 3 === 0){
+    if (i % 3 === 0){
 
-//     alert(i + " é  multiplo de 3 ." );
-// }
+    alert(i + " é  multiplo de 3 ." );
+}
 
-// }
+}
 
-// }
+}
 
 
-// function imprimirAsteriscos(){
+function imprimirAsteriscos(){
 
-//     let linha ="";
+    let linha ="";
 
-//     for(let i = 0 ; i <  10 ; i++) {
-//         linha += "*";
-//           }
-//      console.log(linha); 
+    for(let i = 0 ; i <  10 ; i++) {
+        linha += "*";
+          }
+     console.log(linha); 
     
-//     }
+    }
 
-//     function calcularPares1a20(){
+    function calcularPares1a20(){
         
-// let soma = 0 
+let soma = 0 
 
-// }
+}
 
 
 
