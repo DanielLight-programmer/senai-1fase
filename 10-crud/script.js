@@ -17,7 +17,6 @@
 // console.log (dino)
 
 const dinos = []
-
 function cadastrarDino() {
 
     const novoDino = {
