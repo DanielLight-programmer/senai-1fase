@@ -10,7 +10,18 @@
 
 // }
 
-function estadoInicial(){
+const zerados = []
+
+    if(zerados.length==0){
+//...
+        {
+            alert("Não deu tão ruim...")
+        }else{
+
+            alert("Há esperança??")
+        }
+    }
+
+
 
     
-}
